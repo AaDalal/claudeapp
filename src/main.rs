@@ -1,12 +1,6 @@
-#!/usr/bin/env rust-script
-//! ```cargo
-//! [dependencies]
-//! percent-encoding = "2"
-//! ```
-
-// open_in_claude.ers opens a folder in the Claude desktop app's Code tab via a deep link.
+// main.rs opens a folder in the Claude desktop app's Code tab via a claude:// deep link.
 //
-// Usage: open_in_claude.ers [folder] [--print]
+// Usage: claudeapp [folder] [--print]
 //   folder   defaults to the current directory
 //   --print  print the URL instead of opening it
 
